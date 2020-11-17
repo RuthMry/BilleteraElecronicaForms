@@ -13,9 +13,9 @@ namespace BilleteraElecronicaPrueba
             //Arrange
             String numeroCuenta = "44445";
             String DNI = "4567578";
-            Decimal saldoInicialEsperado = 0;
+            Decimal saldoInicialEsperado = 0; 
             Decimal saldoInicialActual;
-
+            
             //Do
             CuentaCorriente cuenta = new CuentaCorriente(numeroCuenta, DNI, 0);
             saldoInicialActual = cuenta.Saldo;
